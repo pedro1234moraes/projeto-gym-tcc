@@ -27,7 +27,7 @@
         rel="stylesheet">
 
     <!--
-        - preload images
+        - preload images( Preload para carregar imagens importantes logo no começo)
     -->
     <link rel="preload" as="image" href="./assets/images/hero-banner.png">
     <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
@@ -45,18 +45,21 @@
 
     <header class="header" data-header>
         <div class="container">
-
+            
+            <!-- Logo com ícone e nome -->
             <a href="#" class="logo">
                 <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
 
                 <span class="span">Fitlife</span>
             </a>
 
+            <!-- Menu de navegação -->
             <nav class="navbar" data-navbar>
-                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> <!-- Botão para fechar o menu (em dispositivos móveis) -->
                     <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
                 </button>
 
+                <!-- Lista de links do menu -->
                 <ul class="navbar-list">
 
                     <li>
@@ -103,13 +106,14 @@
         <article>
 
             <!----
-             #HERO
+             #HERO 
         ---->
-
+             <!-- Seção Hero: área principal de destaque no topo -->
             <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
                 style="background-image: url('./assets/images/hero-bg.png');">
                 <div class="container">
 
+                    <!-- Conteúdo textual do Hero -->
                     <div class="hero-content">
 
                         <p class="hero-subtitle">
@@ -125,6 +129,7 @@
 
                     </div>
 
+                    <!-- Imagens decorativas e banner do Hero -->
                     <div class="hero-banner">
 
                         <img src="./assets/images/hero-banner.png" width="660" height="753" alt="hero banner"
@@ -151,7 +156,7 @@
 
 
             <!-----
-            - #ABOUT
+            - #ABOUT  Seção About: informações sobre a academia
         ----->
 
             <section class="section about" id="about" aria-label="about">
@@ -230,7 +235,7 @@
 
 
     <!--
-    - custom js link
+    - custom js link (Link para o arquivo JavaScript que controla interações)
 -->
     <script src="./assets/js/script.js" defer></script>
 
